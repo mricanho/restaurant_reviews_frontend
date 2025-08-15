@@ -12,7 +12,7 @@ async function http(path, options = {}) {
   return res.json();
 }
 
-export const listRestaurants = (q="") =>
+export const listRestaurants = (q = "") =>
   http(`/restaurants${q ? `?q=${encodeURIComponent(q)}` : ""}`);
 
 export const getRestaurant = (id) => http(`/restaurants/${id}`);
