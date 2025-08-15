@@ -1,5 +1,7 @@
 # Restaurant Reviews – Frontend
 
+<img width="1672" height="897" alt="Screenshot 2025-08-14 at 11 42 03 p m" src="https://github.com/user-attachments/assets/b0c7fd2e-be3c-45cd-96f3-f76ceacb187c" />
+
 Frontend application for the **Restaurant Reviews** platform, built with **React**, **Vite**, and **TailwindCSS**.  
 It consumes the Rails API backend to allow users to browse, search, view, and review restaurants.
 
@@ -60,12 +62,12 @@ VITE_API_URL=http://localhost:3000
 ## 🖥️ Setup & Run
 
 ### 1. Install dependencies
-```bash
-npm install
+
+`npm install`
 
 ### 2. Run the development server
 
-npm run dev
+`npm run dev`
 
 The app will be available at:
 
