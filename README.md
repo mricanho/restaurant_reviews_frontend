@@ -27,30 +27,6 @@ It consumes the Rails API backend to allow users to browse, search, view, and re
 
 ---
 
-## 📂 Project Structure
-restaurant_reviews_frontend/
-│
-├─ index.html
-├─ package.json
-├─ postcss.config.js
-├─ tailwind.config.js
-├─ vite.config.js
-│
-└─ src/
-   ├─ index.css               
-   ├─ main.jsx                # Router
-   ├─ api.js                  # HTTP Client (fetch)
-   │
-   ├─ pages/
-   │  ├─ App.jsx              # Home: search, list and create restaurant
-   │  └─ RestaurantDetail.jsx # Details: info, reviews and creat review
-   │
-   └─ components/
-      ├─ RestaurantList.jsx   # Restaurant list
-      └─ RestaurantForm.jsx   # Form 
-
----
-
 ## ⚙️ Environment Variables
 
 Create a `.env` file in the project root:
@@ -79,14 +55,9 @@ http://localhost:5173
 
 This frontend expects the backend Rails API to be running locally at the URL defined in VITE_API_URL.
 
-Backend repo: [https://github.com/mricanho/restaurant_reviews_api]
+### [Backend repo](https://github.com/mricanho/restaurant_reviews_api)
 
 ---
-
-## 📸 UI Preview
-
-	•	Home Page – List restaurants, search, and create new entries.
-	•	Detail Page – View restaurant details, see reviews, and submit a new one.
 
 ## 📄 License
 
